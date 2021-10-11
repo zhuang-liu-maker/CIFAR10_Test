@@ -176,9 +176,9 @@ The evaluation result is calculated by dividing the number of predicted successf
 ![](https://github.com/zhuang-liu-maker/CIFAR10_Test/blob/main/Figure/loss/loss_2021-10-08_%2023_29.jpg "CIAR10_test_epoch-100_lr-5e-5_bs-64")
 ## Results and Findings
 
-In the process of debugging, the main learning rate, the epoch for fine tuning. First, keep the learning rate at 0.0001 and gradually increase the epoch from 30 to 200.
+In the process of debugging, the main learning rate, the epoch for fine tuning. First, keep the learning rate at 0.0001 and gradually increase the epoch from 30 to 100.
 After that, the epoch was also increased from 30 to 100 each time the learning rate was changed.
-The picture below is an example of loss changing with epoch. And each training generates a graph.The specific code is shown in the Plt function.
+The picture above is an example of loss changing with epoch. And each training generates a graph.The specific code is shown in the Plt function.
 
 The table below shows the parameter values and the corresponding predicted results.
 
@@ -210,8 +210,8 @@ The table below shows the parameter values and the corresponding predicted resul
 |   0.00005      | 60    |  75.550 % |
 |   0.00005      | 100   |  75.510 % |
 
-- From the point of batch_size, the larger the batch__size, the less time each epoch takes. When batch_size is 32, it takes about 18-19 seconds to process a epoch; when batch_size is 64, it takes about 12-13 seconds to process a epoch. 
-But it is not that the larger the batch__size, the higher the accuracy.I have tried batch__size equal to 128, but the result is not very good.
+- From the point of batch_size, the larger the batch_size, the less time each epoch takes. When batch_size is 32, it takes about 18-19 seconds to process a epoch; when batch_size is 64, it takes about 12-13 seconds to process a epoch. 
+But it is not that the larger the batch_size, the higher the accuracy.I have tried batch_size equal to 128, but the result is not very good.
 - As can be seen from the above two tables, when the learning rate is *0.0001*, the prediction accuracy is the highest.
 If the learning rate is too large or too small, it will affect the final accuracy.So it is very important to choose a suitable learning rate.
 - For the epoch, according to the experimental results, obviously it cannot be considered that the larger the epoch, the higher the accuracy.
