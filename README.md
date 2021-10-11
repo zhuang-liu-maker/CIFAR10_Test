@@ -174,7 +174,7 @@ The evaluation result is calculated by dividing the number of predicted successf
 ```
 *An example of the graph of Loss changing with epoch during the experiment.*
 
-![](./Figure/loss/loss_2021-10-08_23_29.jpg "CIAR10_test_epoch-100_lr-5e-5_bs-64")
+![](https://github.com/zhuang-liu-maker/CIFAR10_Test/blob/main/Figure/loss/loss_2021-10-08_%2023_29.jpg "CIAR10_test_epoch-100_lr-5e-5_bs-64")
 ## Results and Findings
 
 In the process of debugging, the main learning rate, the epoch for fine tuning. First, keep the learning rate at 0.0001 and gradually increase the epoch from 30 to 200.
