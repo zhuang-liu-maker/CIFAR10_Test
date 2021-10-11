@@ -91,7 +91,7 @@ And the directory structure of the project is shown below.
  - [Train](#train)
    -  [Requirements](#requirements)
    -  [Load Data Sets](#load-data-sets)
-   -  [Network Structure](#network-structrue)
+   -  [Network Structure](#network-structure)
    -  [Training](#training)
  -  [Results and Findings](#results-and-findings)
  -  [Summary](#summary)
@@ -111,6 +111,7 @@ For example code, you can see file **load__datasets.py**.For training sets, data
 The code is in the Load_data() function in **main.py**.
 ### `Network Structure`
 I used convolutional neural networks and used torch.nn to write the code.
+
 <code>
     
 	class mycovNet(nn.Module):
@@ -140,6 +141,7 @@ You can run <code>python main.py --lr 0.0001 --epoch 100</code> to start trainin
 lr and epoch are optional parameters and their default values are 0.0001 and 40, respectively.
 Finally, the evaluation function is used to predict and evaluate, and the Plt function is used to make the loss changes in the running process into line charts and save them in the Figure/ Loss folder.
 The evaluation result is calculated by dividing the number of predicted successful images by the total number of images.
+
 <code>
 
 	def evaluation(self,device):
@@ -160,6 +162,7 @@ The evaluation result is calculated by dividing the number of predicted successf
         logger.info('Accuracy of the network on the 10000 test images: %.3f %%' % (
                 100.0 * correct / total))
 </code>
+
 <code>
 
     def Plt(self):
