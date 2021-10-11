@@ -87,14 +87,14 @@ And the directory structure of the project is shown below.
 - `Data`:This folder holds the data set.
 - `main`:The main program is saved in this folder.
 ## Quick Links
- - [Data](#Data)
- - [Train](#Train)
-   -  [Requirements](#Requirements)
-   -  [Load Data Sets](#Load Data Sets)
-   -  [Network Structure](#Network Structrue)
-   -  [Training](#Training)
- -  [Results and Findings](#Results and Findings)
- -  [Summary](#Summary)
+ - [Data](#data)
+ - [Train](#train)
+   -  [Requirements](#requirements)
+   -  [Load Data Sets](#load-data-sets)
+   -  [Network Structure](#network-structrue)
+   -  [Training](#training)
+ -  [Results and Findings](#results-and-findings)
+ -  [Summary](#summary)
 
 
 ## data
@@ -104,9 +104,7 @@ And the directory structure of the project is shown below.
 ## Train
 ### `Requirements`
 I ran this program on a Nvidia 1080 graphics card, which required a GPU version of Pytorch and a number of other packages. If your CUDA version is 11.0, you can run 
- ```bash
-    conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch
- ``` to install the appropriate Pytorch package.
+ ```conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=11.0 -c pytorch```  to install the appropriate Pytorch package.
 ### `Load Data Sets`
 Pytorch offers a very convenient package torchvision. Torchvison also provides dataloader to load common MNIST, CIFAR-10, ImageNet, etc data sets. The project uses torchvision to load local CIFAR-10 datasets. 
 For example code, you can see file **load__datasets.py**.For training sets, data enhancements can be made using  `transforms`. You can see the predicted results after and after data augmentation in the following sections.
@@ -176,7 +174,8 @@ The evaluation result is calculated by dividing the number of predicted successf
         plt.savefig('../Figure/loss/loss_'+str(timestart1)+'.jpg')
 </code>
 
-##Results and Findings
+## Results and Findings
+
 In the process of debugging, the main learning rate, the epoch for fine tuning. First, keep the learning rate at 0.0001 and gradually increase the epoch from 30 to 200.
 After that, the epoch was also increased from 30 to 100 each time the learning rate was changed.
 The picture below is an example of loss changing with epoch. And each training generates a graph.The specific code is shown in the Plt function.
