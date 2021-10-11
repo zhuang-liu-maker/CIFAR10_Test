@@ -112,8 +112,7 @@ The code is in the Load_data() function in **main.py**.
 ### `Network Structure`
 I used convolutional neural networks and used torch.nn to write the code.
 
-<code>
-    
+```
 	class mycovNet(nn.Module):
     	def __init__(self):
 	        super(mycovNet,self).__init__()
@@ -132,18 +131,16 @@ I used convolutional neural networks and used torch.nn to write the code.
 	        self.fc2 = nn.Linear(1024,512)
 	        self.drop2 = nn.Dropout2d()
 	        self.fc3 = nn.Linear(512,10)
-</code>
+```
 The above is the part of my definition of convolutional network. Considering that the current network structure is relatively simple, I will gradually optimize it in the future study.
 
 ### `Training`
 The cross-entropy-Loss function is used as the loss function and Adam is used as the Optimizer.Because the current network structure is relatively simple, only the learning rate of the optimizer is adjusted during training.
-You can run <code>python main.py --lr 0.0001 --epoch 100</code> to start training and evaluating.
+You can run ```python main.py --lr 0.0001 --epoch 100``` to start training and evaluating.
 lr and epoch are optional parameters and their default values are 0.0001 and 40, respectively.
 Finally, the evaluation function is used to predict and evaluate, and the Plt function is used to make the loss changes in the running process into line charts and save them in the Figure/ Loss folder.
 The evaluation result is calculated by dividing the number of predicted successful images by the total number of images.
-
-<code>
-
+```
 	def evaluation(self,device):
         correct = 0
         total = 0
@@ -161,10 +158,9 @@ The evaluation result is calculated by dividing the number of predicted successf
                 100.0 * correct / total))
         logger.info('Accuracy of the network on the 10000 test images: %.3f %%' % (
                 100.0 * correct / total))
-</code>
+```
 
-<code>
-
+```
     def Plt(self):
         x_axis_data = [i for i in range(len(plt_loss))]
         y_axis_data = plt_loss
@@ -175,8 +171,10 @@ The evaluation result is calculated by dividing the number of predicted successf
         
         #plt.show()
         plt.savefig('../Figure/loss/loss_'+str(timestart1)+'.jpg')
-</code>
+```
+*An example of the graph of Loss changing with epoch during the experiment.*
 
+![](./Figure/loss/loss_2021-10-08_23_29.jpg "CIAR10_test_epoch-100_lr-5e-5_bs-64")
 ## Results and Findings
 
 In the process of debugging, the main learning rate, the epoch for fine tuning. First, keep the learning rate at 0.0001 and gradually increase the epoch from 30 to 200.
