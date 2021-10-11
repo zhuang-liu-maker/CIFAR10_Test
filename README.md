@@ -173,7 +173,6 @@ The evaluation result is calculated by dividing the number of predicted successf
         plt.savefig('../Figure/loss/loss_'+str(timestart1)+'.jpg')
 ```
 *An example of the graph of Loss changing with epoch during the experiment.*
-
 ![](https://github.com/zhuang-liu-maker/CIFAR10_Test/blob/main/Figure/loss/loss_2021-10-08_%2023_29.jpg "CIAR10_test_epoch-100_lr-5e-5_bs-64")
 ## Results and Findings
 
