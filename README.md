@@ -87,14 +87,14 @@ And the directory structure of the project is shown below.
 - `Data`:This folder holds the data set.
 - `main`:The main program is saved in this folder.
 ## Quick Links
- - [Data](#data)
- - [Train](#train)
-   -  [Requirements](#requirements)
-   -  [Load Data Sets](#load-dataset)
-   -  [Network Structure](#net)
-   -  [Training](#training)
- -  [Results and Findings](#results)
- -  [Summary](#summary)
+ - [Data](#Data)
+ - [Train](#Train)
+   -  [Requirements](#Requirements)
+   -  [Load Data Sets](#Load Data Sets)
+   -  [Network Structure](#Network Structrue)
+   -  [Training](#Training)
+ -  [Results and Findings](#Results and Findings)
+ -  [Summary](#Summary)
 
 
 ## data
