@@ -1,0 +1,4 @@
+2021-10-08 10:26:01,288 - __main__ - INFO - Accuracy of the network on the 32 images: 15.625 %
+2021-10-08 10:26:06,816 - __main__ - INFO - Accuracy of the network on the 32 images: 9.375 %
+2021-10-08 10:26:12,332 - __main__ - INFO - Accuracy of the network on the 32 images: 12.500 %
+2021-10-08 10:26:13,047 - __main__ - INFO - ===================================epoch 0 cost 17.320576 sec=================================

@@ -1,0 +1,41 @@
+2021-10-07 23:39:40,063 - __main__ - INFO - Accuracy of the network on the 32 images: 28.125 %
+2021-10-07 23:39:45,592 - __main__ - INFO - Accuracy of the network on the 32 images: 46.875 %
+2021-10-07 23:39:51,139 - __main__ - INFO - Accuracy of the network on the 32 images: 43.750 %
+2021-10-07 23:39:51,857 - __main__ - INFO - ===================================epoch 0 cost 17.359696 sec=================================
+2021-10-07 23:39:57,564 - __main__ - INFO - Accuracy of the network on the 32 images: 75.000 %
+2021-10-07 23:40:03,130 - __main__ - INFO - Accuracy of the network on the 32 images: 59.375 %
+2021-10-07 23:40:08,689 - __main__ - INFO - Accuracy of the network on the 32 images: 68.750 %
+2021-10-07 23:40:09,402 - __main__ - INFO - ===================================epoch 1 cost 17.544327 sec=================================
+2021-10-07 23:40:15,099 - __main__ - INFO - Accuracy of the network on the 32 images: 50.000 %
+2021-10-07 23:40:20,640 - __main__ - INFO - Accuracy of the network on the 32 images: 71.875 %
+2021-10-07 23:40:26,175 - __main__ - INFO - Accuracy of the network on the 32 images: 75.000 %
+2021-10-07 23:40:26,901 - __main__ - INFO - ===================================epoch 2 cost 17.498738 sec=================================
+2021-10-07 23:40:32,610 - __main__ - INFO - Accuracy of the network on the 32 images: 78.125 %
+2021-10-07 23:40:38,161 - __main__ - INFO - Accuracy of the network on the 32 images: 68.750 %
+2021-10-07 23:40:43,747 - __main__ - INFO - Accuracy of the network on the 32 images: 81.250 %
+2021-10-07 23:40:44,482 - __main__ - INFO - ===================================epoch 3 cost 17.581658 sec=================================
+2021-10-07 23:40:50,275 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:40:55,911 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:41:01,576 - __main__ - INFO - Accuracy of the network on the 32 images: 75.000 %
+2021-10-07 23:41:02,310 - __main__ - INFO - ===================================epoch 4 cost 17.827158 sec=================================
+2021-10-07 23:41:08,170 - __main__ - INFO - Accuracy of the network on the 32 images: 78.125 %
+2021-10-07 23:41:13,900 - __main__ - INFO - Accuracy of the network on the 32 images: 81.250 %
+2021-10-07 23:41:19,628 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:41:20,363 - __main__ - INFO - ===================================epoch 5 cost 18.052719 sec=================================
+2021-10-07 23:41:30,331 - __main__ - INFO - Accuracy of the network on the 32 images: 68.750 %
+2021-10-07 23:41:37,406 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:41:43,066 - __main__ - INFO - Accuracy of the network on the 32 images: 75.000 %
+2021-10-07 23:41:43,809 - __main__ - INFO - ===================================epoch 6 cost 23.446423 sec=================================
+2021-10-07 23:41:49,656 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:41:55,381 - __main__ - INFO - Accuracy of the network on the 32 images: 87.500 %
+2021-10-07 23:42:01,132 - __main__ - INFO - Accuracy of the network on the 32 images: 87.500 %
+2021-10-07 23:42:01,867 - __main__ - INFO - ===================================epoch 7 cost 18.056853 sec=================================
+2021-10-07 23:42:07,728 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:42:13,479 - __main__ - INFO - Accuracy of the network on the 32 images: 93.750 %
+2021-10-07 23:42:19,231 - __main__ - INFO - Accuracy of the network on the 32 images: 78.125 %
+2021-10-07 23:42:19,971 - __main__ - INFO - ===================================epoch 8 cost 18.104574 sec=================================
+2021-10-07 23:42:25,848 - __main__ - INFO - Accuracy of the network on the 32 images: 90.625 %
+2021-10-07 23:42:31,587 - __main__ - INFO - Accuracy of the network on the 32 images: 84.375 %
+2021-10-07 23:42:37,333 - __main__ - INFO - Accuracy of the network on the 32 images: 87.500 %
+2021-10-07 23:42:38,079 - __main__ - INFO - ===================================epoch 9 cost 18.107824 sec=================================
+2021-10-07 23:42:39,370 - __main__ - INFO - Accuracy of the network on the 10000 test images: 77.420 %
